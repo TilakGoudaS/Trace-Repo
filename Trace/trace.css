@@ -110,6 +110,87 @@ li .inact:hover{
 /*_____________________________WORK____________________________*/
 /*_____________________________TRACE____________________________*/
 /*-----------------------------------------------PROFILE-PAGE--------------------------------------*/
+.profile_page{
+    position: relative;
+   /* background-color: pink; */
+   padding: 2.5%;
+   width: 30%;
+   margin-left: 35%;
+   background: #FFFFFF;
+box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25),-0.25px -0.25px 5px rgba(0, 0, 0, 0.25);
+
+border-radius: 16.0515px;
+}
+.settings{
+    position: absolute;
+   /* background-color:rgb(86, 145, 72); */
+   /* padding: 5px; */
+   width: 7.5%;
+   height: auto;
+   margin-left: 82.5%;
+   /* margin-bottom: 20%; */
+   top: 2%;
+}
+.usernm{
+   background-color: rosybrown;
+   padding: 4%;
+   padding-left: 6%;
+}
+.profilepic{
+    padding: 5px;
+/* background-color: tomato; */
+width: 26%;
+height: auto;
+margin-left: 37%;
+margin-bottom: 10%;
+}
+.mail{
+background-color: violet;
+padding: 3% 4%;
+display: flex;
+flex-direction: column;
+justify-content: space-around;
+
+}
+.mailid{
+    /* background-color: gray; */
+    padding: 2%;
+    margin-bottom: 4%;
+}
+.phno{
+    /* background-color: rgb(199, 125, 125); */
+    padding: 2%;
+    margin-bottom: 4%;
+}
+.dob{
+    /* background-color: rgb(111, 124, 82); */
+    padding: 2%;
+}
+.logout{
+    background-color: rgb(140, 141, 202);
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.protm{
+    background-color: rgb(121, 72, 95);
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.projects{
+    background-color: rgb(81, 163, 108);
+    padding: 5px;
+    width: 25%;
+}
+.team{
+    background-color: rgb(167, 173, 75);
+    padding: 5px;
+    width: 25%;
+}
+
+
 /*-----------------------------------------------ABOUT-US-PAGE--------------------------------------*/
 /*-----------------------------------------------HELP-PAGE--------------------------------------*/
 /*_____________________________LOGIN____________________________*/
