@@ -3,6 +3,7 @@ body{
     margin: 0px;
     padding: 3px;
     @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');   
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -112,6 +113,84 @@ li .inact:hover{
 /*-----------------------------------------------PROFILE-PAGE--------------------------------------*/
 /*-----------------------------------------------ABOUT-US-PAGE--------------------------------------*/
 /*-----------------------------------------------HELP-PAGE--------------------------------------*/
+.help
+{
+    margin-top: 8vw;
+    margin-bottom: 30vw;
+}
+.help_desc
+{
+    padding: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+    margin-right:10%; 
+    color: #63068F;
+    margin-left: 50%;
+    opacity: 0.7;
+    position: relative;
+}
+.help_desc p
+{
+    text-align: left;
+}
+.user_msg
+{
+    margin-left: 50%;
+    margin-top: 2vw;
+    position: inherit;
+    width: 40%;
+}
+textarea
+{
+    text-decoration: none;
+    width: 87.5%;
+    border: 0px;
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px; 
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.1em;
+    color: #C4C4C4;
+
+}
+::placeholder
+{
+    opacity: 30%;
+}
+.help_submit
+{
+    margin-left: 80%;
+    margin-right: 0%;
+    margin-top: 1.5vw;
+}
+#help_submit
+{
+    border: 0px;
+    text-decoration: none;
+    height: 2vw;
+    width: 6.5vw;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    background: #FF8A41;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 18.5px;
+    
+}
+
+
 /*_____________________________LOGIN____________________________*/
 /*_____________________________SIGN-UP____________________________*/
 /*_____________________________LOGIN/SIGN-UP____________________________*/
