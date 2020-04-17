@@ -125,14 +125,14 @@ border-radius: 16.0515px;
     position: absolute;
    /* background-color:rgb(86, 145, 72); */
    /* padding: 5px; */
-   width: 7.5%;
+   width: 6%;
    height: auto;
-   margin-left: 82.5%;
+   margin-left: 84%;
    /* margin-bottom: 20%; */
    top: 2%;
 }
 .usernm{
-   background-color: rosybrown;
+   /* background-color: rosybrown; */
    padding: 4%;
    padding-left: 6%;
 }
@@ -184,7 +184,7 @@ justify-content: space-around;
     padding: 5px;
     width: 25%;
 }
-.team{
+.teams{
     background-color: rgb(167, 173, 75);
     padding: 5px;
     width: 25%;
