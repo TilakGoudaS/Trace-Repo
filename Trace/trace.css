@@ -125,7 +125,7 @@ border-radius: 16.0515px;
     position: absolute;
    /* background-color:rgb(86, 145, 72); */
    /* padding: 5px; */
-   width: 6%;
+   width: 6.0%;
    height: auto;
    margin-left: 84%;
    /* margin-bottom: 20%; */
@@ -133,8 +133,11 @@ border-radius: 16.0515px;
 }
 .usernm{
    /* background-color: rosybrown; */
+   background-color: white;
    padding: 4%;
    padding-left: 6%;
+   box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.50);
+   border-radius: 8px;
 }
 .profilepic{
     padding: 5px;
@@ -145,11 +148,13 @@ margin-left: 37%;
 margin-bottom: 10%;
 }
 .mail{
-background-color: violet;
+background-color:white;
 padding: 3% 4%;
 display: flex;
 flex-direction: column;
 justify-content: space-around;
+box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.50);
+border-radius: 8px;
 
 }
 .mailid{
@@ -167,25 +172,26 @@ justify-content: space-around;
     padding: 2%;
 }
 .logout{
-    background-color: rgb(140, 141, 202);
+    background-color: white;
     padding: 5px;
     display: flex;
     justify-content: center;
 }
+div button .logout_button
 .protm{
-    background-color: rgb(121, 72, 95);
+    background-color: white;
     padding: 5px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
 }
 .projects{
-    background-color: rgb(81, 163, 108);
+    background-color: white;
     padding: 5px;
     width: 25%;
 }
-.teams{
-    background-color: rgb(167, 173, 75);
+.team{
+    background-color: white;
     padding: 5px;
     width: 25%;
 }
